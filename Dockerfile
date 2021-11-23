@@ -31,3 +31,4 @@ RUN gem build sitediff.gemspec && gem install sitediff --no-document
 
 # Build locally
 RUN bundle install
+CMD tail -f /dev/null
